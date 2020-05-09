@@ -40,7 +40,7 @@ def Simulation(jours, population, infectiosite):
                 if random.randrange(0,max_r)<=r:
                     Matrice[x-1][y]=1
                 if random.randrange(0,max_r)<=r:
-                    Matrice[x][y+1]
+                    Matrice[x][y+1]=1
                 if random.randrange(0,max_r)<=r:
                     Matrice[x-1][y+1]=1
                 continue
